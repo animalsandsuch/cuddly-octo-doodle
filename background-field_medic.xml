@@ -4,7 +4,7 @@
 		<name>Field Medic</name>
 		<description>Field Medic Background</description>
 		<author url="https://www.example.com">Me</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="background-field_medic.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-criminal.xml" />
 		</update>
 	</info>
@@ -13,7 +13,7 @@
 		<description>
 			<p>War has happened many times in your life and armies always need someone to fight, someone to help save troops that are wounded and somebody to pray with them. Your family's history has inspired you into learning the medical field and combat. You trained as a youth, studied survival techniques, studied the use of weapons and armor, and studied ways of keeping people alive. You might have been a medic for an army or a freelancer medic for mercenary companies. You're primarily responsible for providing emergency medical treatment, protection, and evacuation from a point of injury or illness. You help keep your comrades alive and fight off the enemies as well. Not only do you keep your comrades alive but you take care of them after injury and help boost moral by keeping them company, hearing their worries and giving them telling them inspirational stories from religious scripts.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Medicine, Herbalism</li>
+				<li><strong>Skill Proficiencies:</strong> Medicine, Nature</li>
 				<li><strong>Tool Proficiencies:</strong> Herbalism Kit, Vehicles (land)</li>
 				<li><strong>Equipment:</strong>  A healer's kit, a bar of soap, a lamp, a set of common clothes, a blanket, a roll of bandages, an insignia denoting your role as a medic, and a pouch containing 10 gp.</li>
 			</ul>
@@ -35,12 +35,12 @@
 			<p>As a medic war never changes but it can change you.</p>
 		</description>
 		<setters>
-			<set name="short">Medicine, Herbalism, Herbalism Kit, Vehicles (land)</set>
+			<set name="short">Medicine, Nature, Herbalism Kit, Vehicles (land)</set>
 		</setters>
 		<sheet display="false" />
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HERBALISM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
 			<select type="Proficiency" name="Herbalism Kit (Field Medic)" supports="Herbalism Kit" />
 			<select type="Proficiency" name="Vehicles (land) (Field Medic)" supports="Vehicles (land)"/>
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_HEALTHCARE_SPECIALIST" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
