@@ -32,7 +32,7 @@
 				<tr><td>7</td><td>Nothing</td></tr>
 				<tr><td>8</td><td>Something</td></tr>
 			</table>
-			<div element="ID_BACKGROUND_FEATURE_FIELD_MEDIC" />
+			<div element="ID_BACKGROUND_FEATURE_HEALTHCARE_SPECIALIST" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
 			<p>As a medic war never changes but it can change you.</p>
 			<div element="ID_BACKGROUND_VARIANT_FIELD_MEDIC_MEDIC" />
@@ -44,7 +44,7 @@
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
-			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_FIELD_MEDIC" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_HEALTHCARE_SPECIALIST" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 			<select type="Background Variant" name="Variant Field Medic" supports="Variant Field Medic" optional="true" />
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Field Medic Specialty" optional="true">
