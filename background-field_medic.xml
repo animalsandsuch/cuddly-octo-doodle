@@ -58,7 +58,7 @@
 				<item id="8">Something</item>
 			</select>
 			<select type="List" name="Personality Trait" number="2">
-                <item id="1">I'm respectful and polite.</item>
+                                <item id="1">I'm respectful and polite.</item>
 				<item id="2">I will never give up.</item>
 				<item id="3">Danger will not stop me from helping.</item>
 				<item id="4">I'm haunted by memories of people I couldn't save.</item>
@@ -81,7 +81,7 @@
 				<item id="3">The safety of my patients is my priority.</item>
 				<item id="4">I will become the greatest thief that ever lived.</item>
 				<item id="5">My family medical experience inspired me to save lives.</item>
-                <item id="6">My job is my life.</item>
+                                <item id="6">My job is my life.</item>
 			</select>
 			<select type="List" name="Flaw">
 				<item id="1">My hesitation cost many people their life.</item>
