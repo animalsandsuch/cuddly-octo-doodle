@@ -73,7 +73,7 @@
 				<item id="3">Independence. We are not gods, our job is to save lives. (Neutral)</item>
 				<item id="4">Risks. Sometimes to save a life, you must take a life. (Any)</item>
 				<item id="5">Putting yourself first. Sometimes it's not worth risking my life for yours. (Evil)</item>
-				<item id="6">Jury. Listen, I'm the one who will decide if you live or not. (Chaotic)
+				<item id="6">Jury. Listen, I'm the one who will decide if you live or not. (Chaotic)</item>
 			</select>
 			<select type="List" name="Bond">
 				<item id="1">I will risk my life to save another.</item>
