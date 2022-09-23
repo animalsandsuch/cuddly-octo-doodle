@@ -4,7 +4,7 @@
 		<name>Field Medic</name>
 		<description>Field Medic Background</description>
 		<author url="https://www.example.com">Me</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="background-field_medic.xml" url="https://raw.githubusercontent.com/animalsandsuch/cuddly-octo-doodle/main/background-field_medic.xml" />
 		</update>
 	</info>
@@ -43,9 +43,6 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
 			<select type="Proficiency" name="Herbalism Kit (Field Medic)" supports="Herbalism Kit" />
 			<select type="Proficiency" name="Vehicles (land) (Field Medic)" supports="Vehicles (land)"/>
-			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_HEALTHCARE_SPECIALIST" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
-			<select type="Background Variant" name="Variant Field Medic" supports="Variant Field Medic" optional="true" />
-			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Field Medic Speciality" optional="true">
 				<item id="1">Surgeon</item>
 				<item id="2">Nurse</item>
