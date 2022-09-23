@@ -4,8 +4,8 @@
 		<name>Field Medic</name>
 		<description>Field Medic Background</description>
 		<author url="https://www.example.com">Me</author>
-		<update version="0.0.2">
-			<file name="background-field_medic.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-criminal.xml" />
+		<update version="0.0.3">
+			<file name="background-field_medic.xml" url="https://raw.githubusercontent.com/animalsandsuch/cuddly-octo-doodle/main/background-field_medic.xml" />
 		</update>
 	</info>
 
@@ -95,7 +95,8 @@
 	<element name="Feature: Healthcare Specialist" type="Background Feature" source="Me" id="ID_BACKGROUND_FEATURE_HEALTHCARE_SPECIALIST">
 		<supports>Background Feature</supports>
 		<description>
-			<p>You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you.</p>
+			<p>You are a medical soldier and spiritual advisor, who heals the heart mind and body. Did you extract arrows or prepare healing herbal brews? Were you sent out onto a battlefield to retrieve wounded soldiers? Perhaps you had to fight to defend yourself. Either way, both sides respect and take comfort when they see your distinctive uniform coming over the battlefield towards them. Wherever you go, you are welcomed. Soldiers of all ranks and villagers alike will come to you with their wounds, illnesses, and to seek spiritual guidance (as long as they have a similar alignment or values). If you help others, they will help you; this will provide you with contacts and allies others don't have.
+            In "civilized" warfare, it is often considered a war crime to attack a combat medic.</p>
 		</description>
 		<sheet alt="Healthcare Specialist">
 			<description>You are a medical soldier and spiritual advisor, who heals the heart mind and body. Did you extract arrows or prepare healing herbal brews? Were you sent out onto a battlefield to retrieve wounded soldiers? Perhaps you had to fight to defend yourself. Either way, both sides respect and take comfort when they see your distinctive uniform coming over the battlefield towards them. Wherever you go, you are welcomed. Soldiers of all ranks and villagers alike will come to you with their wounds, illnesses, and to seek spiritual guidance (as long as they have a similar alignment or values). If you help others, they will help you; this will provide you with contacts and allies others don't have.
